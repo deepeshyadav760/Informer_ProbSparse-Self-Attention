@@ -1,10 +1,10 @@
-# 🌍 Informer-Based Carbon Flux Forecasting using ProbSparse Self-Attention
+## 🌍 Informer-Based Carbon Flux Forecasting using ProbSparse Self-Attention
 
 An end-to-end deep learning pipeline for forecasting **Net Ecosystem Exchange (NEE)** (Carbon Flux) using the **Informer architecture**. The project utilizes multi-source satellite observations and meteorological variables from **Google Earth Engine (GEE)** to model long-term ecosystem carbon dynamics across the **Sundarbans Mangrove Forest** and **Chilika Lake**.
 
 ---
 
-## 📌 Project Overview
+### 📌 Project Overview
 
 Forecasting carbon flux is essential for understanding ecosystem health and the global carbon cycle. Traditional sequence models struggle with long temporal dependencies due to quadratic attention complexity.
 
@@ -12,7 +12,7 @@ This project employs the **Informer** architecture, a Transformer variant specif
 
 ---
 
-## ✨ Features
+### ✨ Features
 
 - End-to-end carbon flux forecasting pipeline
 - Google Earth Engine data acquisition
@@ -26,7 +26,7 @@ This project employs the **Informer** architecture, a Transformer variant specif
 
 ---
 
-# 📂 Dataset
+### 📂 Dataset
 
 The dataset is stored in **CSV format** for transparency and reproducibility.
 
@@ -37,7 +37,7 @@ The dataset is stored in **CSV format** for transparency and reproducibility.
 
 ---
 
-## 🌎 Data Sources
+### 🌎 Data Sources
 
 The dataset is generated from **Google Earth Engine (GEE)** using multiple remote sensing products.
 
@@ -57,7 +57,7 @@ The dataset is generated from **Google Earth Engine (GEE)** using multiple remot
 
 ---
 
-## 🧠 Model Architecture
+### 🧠 Model Architecture
 
 This project uses the **Informer** model proposed in:
 
@@ -111,7 +111,7 @@ The model learns seasonal patterns using:
 
 ---
 
-# ⚙️ Pipeline
+## ⚙️ Pipeline
 
 ```
 Google Earth Engine
@@ -143,7 +143,7 @@ Dashboard Visualization
 
 ---
 
-## 📁 Project Structure
+### 📁 Project Structure
 
 ```text
 Carbon_Flux_Forecasting_with_ProbSparse-Self-Attention/
@@ -224,7 +224,7 @@ A Streamlit application enables interactive visualization of:
 
 ---
 
-## 🚀 Installation
+### 🚀 Installation
 
 Clone the repository
 
@@ -242,7 +242,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🌍 Authenticate Google Earth Engine
+### 🌍 Authenticate Google Earth Engine
 
 ```bash
 earthengine authenticate
@@ -252,7 +252,7 @@ earthengine set_project ee-deepeshy
 
 ---
 
-## 📥 Fetch Dataset
+### 📥 Fetch Dataset
 
 ```bash
 python fetch_gee_data.py
@@ -260,7 +260,7 @@ python fetch_gee_data.py
 
 ---
 
-## 🏋️ Train the Model
+### 🏋️ Train the Model
 
 ```bash
 python main.py --data real
@@ -268,7 +268,7 @@ python main.py --data real
 
 ---
 
-## 📊 Evaluate
+### 📊 Evaluate
 
 ```bash
 python evaluate.py
@@ -276,7 +276,7 @@ python evaluate.py
 
 ---
 
-## 💻 Launch Dashboard
+### 💻 Launch Dashboard
 
 ```bash
 streamlit run dashboard/app.py
@@ -284,7 +284,7 @@ streamlit run dashboard/app.py
 
 ---
 
-## 📈 Experiment Tracking
+### 📈 Experiment Tracking
 
 Experiments are tracked using **MLflow**.
 
@@ -298,7 +298,7 @@ Metrics logged include:
 
 ---
 
-## 🛠 Technologies Used
+### 🛠 Technologies Used
 
 - Python
 - PyTorch
@@ -312,7 +312,7 @@ Metrics logged include:
 
 ---
 
-## 📚 References
+### 📚 References
 
 1. Zhou et al., **Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting**, AAAI 2021.
 
@@ -326,13 +326,13 @@ Metrics logged include:
 
 ---
 
-## 📄 License
+### 📄 License
 
 This project is intended for research and educational purposes.
 
 ---
 
-## 👨‍💻 Author
+### 👨‍💻 Author
 
 **Deepesh Yadav**
 
