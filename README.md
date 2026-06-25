@@ -224,7 +224,7 @@ A Streamlit application enables interactive visualization of:
 
 ---
 
-# 🚀 Installation
+## 🚀 Installation
 
 Clone the repository
 
@@ -242,7 +242,7 @@ pip install -r requirements.txt
 
 ---
 
-# 🌍 Authenticate Google Earth Engine
+## 🌍 Authenticate Google Earth Engine
 
 ```bash
 earthengine authenticate
@@ -252,7 +252,7 @@ earthengine set_project ee-deepeshy
 
 ---
 
-# 📥 Fetch Dataset
+## 📥 Fetch Dataset
 
 ```bash
 python fetch_gee_data.py
@@ -260,7 +260,7 @@ python fetch_gee_data.py
 
 ---
 
-# 🏋️ Train the Model
+## 🏋️ Train the Model
 
 ```bash
 python main.py --data real
@@ -268,7 +268,7 @@ python main.py --data real
 
 ---
 
-# 📊 Evaluate
+## 📊 Evaluate
 
 ```bash
 python evaluate.py
@@ -276,7 +276,7 @@ python evaluate.py
 
 ---
 
-# 💻 Launch Dashboard
+## 💻 Launch Dashboard
 
 ```bash
 streamlit run dashboard/app.py
@@ -284,7 +284,7 @@ streamlit run dashboard/app.py
 
 ---
 
-# 📈 Experiment Tracking
+## 📈 Experiment Tracking
 
 Experiments are tracked using **MLflow**.
 
@@ -298,7 +298,7 @@ Metrics logged include:
 
 ---
 
-# 🛠 Technologies Used
+## 🛠 Technologies Used
 
 - Python
 - PyTorch
@@ -312,7 +312,7 @@ Metrics logged include:
 
 ---
 
-# 📚 References
+## 📚 References
 
 1. Zhou et al., **Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting**, AAAI 2021.
 
@@ -326,7 +326,7 @@ Metrics logged include:
 
 ---
 
-# 📄 License
+## 📄 License
 
 This project is intended for research and educational purposes.
 
