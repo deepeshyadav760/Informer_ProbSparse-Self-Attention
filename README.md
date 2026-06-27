@@ -411,21 +411,6 @@ Install all:
 ```bash
 pip install -r requirements.txt
 ```
-
----
-
-## 📄 Citation
-
-```bibtex
-@inproceedings{zhou2021informer,
-  title     = {Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting},
-  author    = {Zhou, Haoyi and Zhang, Shanghang and Peng, Jieqi and Zhang, Shuai and
-               Li, Jianxin and Xiong, Hui and Zhang, Wancai},
-  booktitle = {Proceedings of AAAI},
-  year      = {2021}
-}
-```
-
 ---
 
 ## 🔗 References
